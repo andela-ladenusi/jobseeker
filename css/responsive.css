@@ -100,7 +100,7 @@
 
 	#how-it-works h2, #look-for-job h2, #partners h2 {
 		font-size: 2.5em;
-		margin-bottom: 1.625em;
+		margin-bottom: 1em;
 	}
 
 	#how-it-works {
@@ -108,7 +108,7 @@
 	}
 
 	#look-for-job {
-		padding: 4.5em 0 4.125em;
+		padding: 3em 0 2.5em;
 	}
 
 	#look-for-job p {
@@ -121,25 +121,46 @@
 
 	#partners {
 		/*margin: 30px 10px;*/
-		margin-top: 40px;
-		padding: 0 25px;
+		/*margin-top: 40px;*/
+		padding: 10px 40px;
 		box-sizing: border-box;
 	}
 
-
-	/********************************************************************
-
-						Footer Styles
-						<div id="wrapper">
-							...
-							<footer></footer>
-						</div>
-
-	*********************************************************************/
-
-
+	#partners li {
+		margin: 16px 0.2em;
+		padding: 0 12px;
+	}
 }
 
+
+
+@media screen and (max-width: 908px) {
+	#wrap-head {
+		height: 26em;
+	}
+
+	#logo img {
+		width: 60%;
+	}
+
+	#post-a-job {
+		margin-left: 7em;
+		bottom: 6em;
+	}
+
+	.arrow img {
+		display: none;
+		margin: 0;
+		width: 0;
+	}
+}
+
+
+@media screen and (max-width: 787px) {
+	#wrap-head {
+		height: 20em;
+	}
+}
 
 
 
