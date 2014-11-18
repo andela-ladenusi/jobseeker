@@ -139,7 +139,7 @@ nav a:hover {
 }
 
 .link {
-	margin: 1.25em 0 0 0;
+	margin: 1.5em 0 0 0;
 }
 
 .link-button {
@@ -249,9 +249,10 @@ section {
 	padding: 6.25em 0 5em;
 	margin: 0 auto;
 	color: #000;
-	background: url('../images/blurred_bg.jpg') no-repeat;
+	/*background: url('../images/blurred_bg.jpg') no-repeat;
 	background-size: 100%;
-	background-position: 0 0;
+	background-position: 0 0;*/
+	background-color: grey;
 }
 
 #look-for-job h2 {

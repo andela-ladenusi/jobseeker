@@ -158,9 +158,93 @@
 
 @media screen and (max-width: 787px) {
 	#wrap-head {
-		height: 20em;
+		height: 22em;
+	}
+
+	nav ul {
+		margin-right: 2em;
+		padding: 0.5em 0;
+	}
+
+	nav ul li {
+		margin-right: 10px;
+	}
+
+	#logo img {
+		width: 40%;
+	}
+
+	#post-a-job {
+		margin-left: 5em;
+	}
+
+	#post-a-job h2 {
+		font-size: 1.125em;
+	}
+
+	#post-a-job p {
+		line-height: 0.45em;
+	}
+
+	.link {
+		margin-top:	1.5em;
+	}
+
+	.link-button {
+		padding: 0.1em 1.25em;
 	}
 }
 
+
+@media  screen and (max-width: 480px) {
+	#wrap-head {
+		height: 13em;
+	}
+
+	nav {
+		height: 1.5em;
+	}
+
+	#logo img {
+		width: 20%;
+	}
+
+	#post-a-job {
+		margin-left: 2em;
+		bottom: 4em;
+		font-size: 0.825em;
+	}
+
+	#post-a-job p {
+		line-height: 0.125em;
+	}
+
+	.link {
+		margin-top:	0.15em;
+	}
+
+	.link-button {
+		padding: 0.0125em 0.5em;
+	}
+
+	#overlay {
+		height: 3.75em;
+		padding: 0.25em;
+	}
+
+	#overlay span {
+		font-size: 1em;
+		margin-bottom: 0.35em;
+	}
+
+	#overlay ul {
+		margin-top: 0.3em;
+		font-size: 0.625em;
+	}
+
+	#overlay ul li {
+		display: block;
+	}
+}
 
 
