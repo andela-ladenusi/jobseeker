@@ -1,250 +1,67 @@
-@media screen and (max-width: 1160px) {
-	
-	/********************************************************************
+@media screen and (min-width: 680px) {
+  nav ul li {
+    font-size: 1rem;
+  }
 
-				Header Wrap Styles - div#wrap-head
-			<div id="wrap-head">
-				<header>
-					<div id="logo"></div>
-					<nav></nav>
-				</header>
-				<div id="post-a-job"></div>
-				<div id="overlay"></div>
-			</div>
+  nav a {
+    padding-left: 10%;
+  }
 
-	 *********************************************************************/
+  #overlay {
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 0;
+    bottom: 0;
+    min-width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding-top: 2%;
+    overflow: hidden;
+  }
 
-	#wrap-head {
-		height: 30em;
-	}
+  #overlay h1 {
+    font-size: 4vw;
+    font-weight: 200;
+  }
 
-	nav {
-		height: 2.75em;
-	}
+  #overlay ul {
+    list-style: none;
+    font-size: 2.5vw;
+    padding: 0 1.125% 1% 1.125%;
+  }
 
-	nav ul {
-		margin-right: 3em;
-		padding: 0.85em 0;
-	}
+  #overlay ul li {
+    display: inline-block;
+    padding: 0 1%;
+  }
 
-	nav ul li {
-		margin-right: 16px;
-	}
+  .dot {
+    margin: 0;
+    padding: 0;
+    font-size: 4vw;
+  }
 
-	nav a {
-		font-size: 0.925em;
-	}
+  .hiw-list {
+    float: left;
+    width: 16%;
+    margin: 1%;
+    padding: 1%;
+    height: 10%;
+  }
 
-	#logo img {
-		width: 80%;
-	}
+  .hiw-list p {
+    font-size: 1.75vw; 
+  }
 
-	#post-a-job {
-		margin-left: 8em;
-		bottom: 7.5em;
-	}
+  .arrow {
+    float: left;
+    display: block;
+    margin-top: 4%;
+    max-width: 5%;
+  }
 
-	#post-a-job h2 {
-		font-size: 1.5em;
-	}
-
-	#post-a-job p {
-		line-height: 1em;
-		letter-spacing: 0;
-	}
-
-	.link {
-		margin: 1em 0 0 0;
-	}
-
-	.link-button {
-		padding: 0.5em 2em;
-		font-size: 1em;
-	}
-
-	#overlay {
-		height: 5em;
-		padding: 1em 0;
-	}
-
-	#overlay span {
-		font-size: 1.75em;
-		margin-bottom: 0.75em;
-	}
-
-	#overlay ul {
-		font-size: 0.85em;
-		margin-top: 0.7em;
-	}
-
-	#overlay li {
-		padding: 0 0.425em;
-	}
-
-
-	/********************************************************************
-
-						Section Styles
-						<div id="sections">
-							<section id="how-it-works"></section>
-							<section id="look-for-job"></section>
-							<section id="partners"></section>
-						</div>
-
-	*********************************************************************/
-
-	section {
-		height: 20em;
-		padding-top: 2em;
-	}
-
-	#how-it-works h2, #look-for-job h2, #partners h2 {
-		font-size: 2.5em;
-		margin-bottom: 1em;
-	}
-
-	#how-it-works {
-		font-size: 1em;
-	}
-
-	#look-for-job {
-		padding: 3em 0 2.5em;
-	}
-
-	#look-for-job p {
-		font-size: 1em;
-	}
-
-	#look-for-job p:nth-child(3) {
-		margin-bottom: 20px;
-	}
-
-	#partners {
-		/*margin: 30px 10px;*/
-		/*margin-top: 40px;*/
-		padding: 10px 40px;
-		box-sizing: border-box;
-	}
-
-	#partners li {
-		margin: 16px 0.2em;
-		padding: 0 12px;
-	}
+  #look-for-job p {
+    font-size: 2vw;
+  }
 }
-
-
-
-@media screen and (max-width: 908px) {
-	#wrap-head {
-		height: 26em;
-	}
-
-	#logo img {
-		width: 60%;
-	}
-
-	#post-a-job {
-		margin-left: 7em;
-		bottom: 6em;
-	}
-
-	.arrow img {
-		display: none;
-		margin: 0;
-		width: 0;
-	}
-}
-
-
-@media screen and (max-width: 787px) {
-	#wrap-head {
-		height: 22em;
-	}
-
-	nav ul {
-		margin-right: 2em;
-		padding: 0.5em 0;
-	}
-
-	nav ul li {
-		margin-right: 10px;
-	}
-
-	#logo img {
-		width: 40%;
-	}
-
-	#post-a-job {
-		margin-left: 5em;
-	}
-
-	#post-a-job h2 {
-		font-size: 1.125em;
-	}
-
-	#post-a-job p {
-		line-height: 0.45em;
-	}
-
-	.link {
-		margin-top:	1.5em;
-	}
-
-	.link-button {
-		padding: 0.1em 1.25em;
-	}
-}
-
-
-@media  screen and (max-width: 480px) {
-	#wrap-head {
-		height: 13em;
-	}
-
-	nav {
-		height: 1.5em;
-	}
-
-	#logo img {
-		width: 20%;
-	}
-
-	#post-a-job {
-		margin-left: 2em;
-		bottom: 4em;
-		font-size: 0.825em;
-	}
-
-	#post-a-job p {
-		line-height: 0.125em;
-	}
-
-	.link {
-		margin-top:	0.15em;
-	}
-
-	.link-button {
-		padding: 0.0125em 0.5em;
-	}
-
-	#overlay {
-		height: 3.75em;
-		padding: 0.25em;
-	}
-
-	#overlay span {
-		font-size: 1em;
-		margin-bottom: 0.35em;
-	}
-
-	#overlay ul {
-		margin-top: 0.3em;
-		font-size: 0.625em;
-	}
-
-	#overlay ul li {
-		display: block;
-	}
-}
-
-

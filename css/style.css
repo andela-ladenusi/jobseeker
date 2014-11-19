@@ -1,0 +1,243 @@
+/******************************************************************
+
+CSS design for Jobseeker 1.0
+Author: Ladi Adenusi
+License: none
+
+********************************************************************/
+
+/********************************************************************
+
+						Page-wide Styles
+
+*********************************************************************/
+
+body, html {
+	margin: 0;
+	width: 100%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 5vw;
+	padding-top: 2%;
+}
+
+
+/********************************************************************
+
+				Page Wrapper - div#wrapper
+				<body>
+					<div id="wrapper">
+						...
+					</div>
+				</body>
+
+*********************************************************************/
+
+header {
+	background: url('../images/header.jpg') no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 50%;
+	max-height: 100%;
+	position: relative;
+}
+
+nav {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	height: 20%;
+	max-height: 6em;
+	clear: both;
+	display: inline-block;
+	position: relative;
+}
+
+#logo {
+	max-width: 15%;
+	float: left;
+	margin-left: 5%;
+	position: absolute;
+	top: 0;
+}
+
+nav ul {
+	position: relative;
+	margin: 2% 5% 2% 0;
+	max-width: 75%;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 0.85rem; 
+}
+
+nav a {
+	text-decoration: none;
+	padding-left: 5%;
+	color: #000;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+#post-a-job {
+	position: relative;
+	display: block;
+	font-size: 0.625rem;
+	min-height: 30%;
+	margin: 5% 0 8% 10%;
+}
+
+#post-a-job h3 {
+	font-size: 4vw;
+	font-weight: bold;
+}
+
+#post-a-job p {
+	font-size: 2.5vw;
+	line-height: 3.125vw;
+}
+
+.link {
+	margin-top: 1.5%;
+}
+
+.link a {
+	padding: 0.25% 5%;
+	text-decoration: none;
+	background-color: green;
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 200;
+	font-size: 3vw;
+}
+
+#overlay {
+	display: none;
+}
+
+
+/********************************************************************
+
+            Section Styles
+
+*********************************************************************/
+
+
+
+#sections {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+section {
+	margin: 0 auto;
+	min-width: 100%;
+}
+
+section ul {
+	margin: 1% 0;
+}
+
+.hiw-list {
+	float: left;
+	width: 40%;
+	margin: 2.5%;
+	padding: 2.5%;
+	height: 10%;
+}
+
+.hiw-list p {
+	text-align: center;
+	margin: 0;
+	padding: 5%;
+	font-size: 3.25vw;
+}
+/*.hiw-list {
+	width: 10%;
+}*/
+
+.arrow {
+	display: none;
+}
+
+#look-for-job {
+	display: block;
+	background: url('../images/blurred_bg.jpg') no-repeat;
+	background-size: 100% ;
+	background-position: 0 0;
+	clear: both;
+	height: 25vw;
+	max-height: 380px;
+	font-size: 3vw;
+}
+
+#look-for-job h2 {
+	margin: 2.5% 0;
+}
+
+#look-for-job p:nth-child(3) {
+	margin-bottom: 2.5%;
+}
+
+#partners ul {
+	list-style: none;
+}
+
+#partners ul li {
+	float: left;
+	width: 20%;
+	height: 10%;
+	margin: 2.225%;
+	border: 1px solid #ddd;
+}
+
+/********************************************************************
+
+            Footer Styles
+
+*********************************************************************/
+
+
+footer {
+	clear: both;
+	background-color: #333;
+	border-top: 4px solid green;
+	height: 80px;
+	width: 100%;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+footer ul {
+	list-style: none;
+	margin-left: 5%;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 5px; 
+}
+
+footer a {
+	text-decoration: none;
+	color: #ccc;
+	font-size: 0.75em;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+
+
